@@ -13,11 +13,26 @@ html body {
 
 section {
   display: block;
-  min-height: 92vh;
+  min-height: 93vh;
   padding-bottom: 12px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 /* Home Section */
+
+.home3 {
+  width: 100%;
+}
+
+.home2 {
+  background-image: url(Images/road.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aboutContainer {
+  overflow: hidden;
+}
 
 .logo_nav {
   display: flex;
@@ -35,7 +50,7 @@ section {
   align-items: center;
   transition: 250ms ease-in-out;
   margin-right: 128px;
-  background: #00000007;
+  background: #000000;
   border-radius: 0px 0px 0px 150px;
 }
 
@@ -73,7 +88,7 @@ ul li {
 /* Code taken from https://codepen.io/jstn/pen/zuDst8 */
 
 .links {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bolder;
@@ -82,6 +97,8 @@ ul li {
   position: relative;
   margin-left: -10px;
   font-size: 1.7rem;
+  display: flex;
+  margin-left: 35px;
 }
 
 .links:hover {
@@ -159,7 +176,7 @@ ul li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  background-image: url(Images/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame.jpg);
+  background: rgba(0, 0, 0, 0.7);
   width: 400px;
   height: 600px;
   padding: 20px;
@@ -204,7 +221,7 @@ ul li {
   width: 370px;
   margin-top: 40px;
   font-size: 1.6rem;
-  color: rgb(36, 32, 32);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   outline: none;
   text-align: center;
@@ -246,41 +263,71 @@ textarea {
 /* Contact section*/
 
 .banner {
-  font-size: 2.5rem;
-  color: #181414;
-  margin-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 40%;
-  text-align: center;
-  line-height: 150px;
-}
-
-label {
-  font-size: 1.5rem;
-  color: #181414;
-  margin-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 40%;
+  font-size: calc(32px + 1.1vw);
+  color: #ffffff;
   text-align: center;
 }
 
 .contact_form {
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 80px;
 }
 
 .form-group {
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border-radius: 20px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.btn-primary {
+  background-color: #181414;
+  color: #ffffff;
+  border-radius: 160px 50px 26px;
+  height: 40px;
+  font-size: 1.2rem;
+  border: 2px solid rgb(255, 255, 255);
+  width: 120px;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 160px 50px 26px;
+  height: 40px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 2px solid rgb(255, 255, 255);
+  transition: 150ms ease-in-out;
+}
+
+.FORM {
+  font-size: 1.5rem;
+  color: #181414;
+  max-width: 440px;
+  padding: 3.3rem;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  border-radius: 133px 300px 130px 300px;
+  backdrop-filter: blur(0.5rem);
+  border-style: solid none solid;
 }
 /* End of pop up Contact form */
 
@@ -319,41 +366,60 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-color: #a8a8a8;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /* About me page */
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  object-fit: cover;
+}
 
 .about {
   width: 100%;
   height: 100%;
 }
 
-.about_txt {
-  width: 100%;
-  height: 240px;
-  border: 2px solid black;
+.about_txt h1 {
+  font-size: 5.5rem;
+  color: #ffffff;
+  margin-left: 30%;
+  margin-right: 10%;
+  width: 40%;
+  line-height: 450px;
 }
 
 .rapper {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .about_txt2 {
-  border: 2px solid black;
   width: 50%;
-  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
 }
 
-.about_img {
-  width: 50%;
-  height: 240px;
-  border: 2px solid black;
+.about_txt2 p {
+  font-size: calc(1.2rem + 0.5vw);
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.65px;
+  line-height: 39px;
+  padding: 10px;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 768px) {
@@ -475,7 +541,61 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 100%;
+  }
+
+  .FORM {
+    color: #181414;
+    min-width: 78%;
+    text-align: center;
+    border-style: solid none solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* About Section */
+
+  .about {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .about_txt2 {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .about_txt2 p {
+    font-size: calc(0.9rem + 0.9vw);
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.65px;
+    line-height: 29px;
+    padding: 10px;
+    font-weight: 500;
+    border: 2px solid blue;
+  }
+
+  .about_txt h1 {
+    font-size: 5.5rem;
+    color: #ffffff;
+    margin-left: 30%;
+    margin-right: 10%;
+    width: 40%;
+    line-height: 150px;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -3;
+    object-fit: cover;
   }
 }
 

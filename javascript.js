@@ -17,9 +17,16 @@ const navSlide = () => {
 
 navSlide();
 
-function eventElement(){
-  document.getElementById("picture").classList.toggle("mouse1");
+function change(){
+  document.getElementById("line3").addEventListener('click',()=>{
+   change.style.backgroundColor = "white";
+  });   
+
 }
+
+change();
+
+
 
 
 
