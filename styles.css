@@ -9,7 +9,7 @@ body {
 
 
   .container{
-  background-image: url(images/cool-background.png);
+  background-image: url(Images/cool-background.png);
   }
 
   
@@ -21,7 +21,7 @@ body {
 
 .logo img {
     width: 220px;
-    height: 55px;
+    height: 65px;
     border-radius: 0px 800px 150px 0px;
     margin-top: 25px;
   }
@@ -380,9 +380,9 @@ textarea {
 }
 
 .text-container p{
-  font-size: calc(.3vw + 0.9em);
+  font-size: calc(.9vw + .9em);
   font-weight: 500;
-  line-height: 25px;
+  line-height: 20px;
   padding: 45px;
   margin: 15px;
   color: #000000bb;
@@ -410,6 +410,7 @@ textarea {
 .projects-cards{
   width: 250px;
   height: 350px;
+  margin: 25px;
   border: 2px solid black;
 }
 
@@ -648,7 +649,8 @@ footer {
 }
 
 .text-container p{
-  font-size: calc(.2vw + 0.9em);
+  font-size: calc(.2vw + 1.4em);
+  line-height: 29px;
   font-weight: 500;
   padding: 5px;
   color: #000000bb;
