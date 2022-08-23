@@ -14,14 +14,15 @@ body {
 
   
   /* Code for the logo and navigation menu bar */
+
 .logo_nav {
     display: flex;
     justify-content: space-around;
   } 
 
 .logo img {
-    width: 220px;
-    height: 65px;
+    width: 169px;
+    height: 45px;
     border-radius: 0px 800px 150px 0px;
     margin-top: 25px;
   }
@@ -52,11 +53,6 @@ body {
   }
 
 
-
-  #contact{
-    color: #ffffff;
-  }
-  
   ul li {
     float: left;
     list-style: none;
@@ -136,7 +132,7 @@ body {
 }
 
 
-/* Contact button and the pop up form styling */
+/* Contact button and the pop up form  */
   
 .contact_button {
 
@@ -312,19 +308,12 @@ textarea {
   justify-content: center;
   align-items: center;
   justify-content:space-evenly;
-  padding-top: 69px;
-  
-  
-  
+  padding-top: 69px; 
 }
 
 .social_links {
   width: calc(.5vw + 2rem);
-  
-  padding: 5px;
-  
-  
-  
+  padding: 5px; 
 }
 
 .social_links:hover {
@@ -332,7 +321,7 @@ textarea {
   transition: 280ms ease-in-out;
 }
 
-/* Styling for the about me page , mobile view*/
+/* Styling for the about me page */
 
 .about{
   display: flex;
@@ -364,7 +353,6 @@ textarea {
 
 
 .text-container{
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -380,13 +368,15 @@ textarea {
 }
 
 .text-container p{
-  font-size: calc(.9vw + .9em);
+  font-size: calc(.9vw + .9rem);
   font-weight: 500;
   line-height: 20px;
   padding: 45px;
   margin: 15px;
   color: #000000bb;
 }
+
+/* Styling for the My Projects section */
 
 .my-projects{
   display: flex;
@@ -434,25 +424,21 @@ textarea {
   justify-content: center;
   align-items: center;
   padding: 12px;
-  width: 100%;
-
-  
-  
+  width: 100%; 
 }
 
 
 .form{
-box-shadow:
+  box-shadow:
   3.6px 5.4px 3.9px rgba(0, 0, 0, 0.3),
   6.7px 10px 9.6px rgba(0, 0, 0, 0.264),
   9.4px 14.1px 18px rgba(0, 0, 0, 0.218),
   12.2px 18.3px 30.3px rgba(0, 0, 0, 0.166),
   16.2px 24.2px 49.2px rgba(0, 0, 0, 0.116),
   24.9px 37.3px 81.8px rgba(0, 0, 0, 0.07),
-  54px 81px 125px rgba(0, 0, 0, 0.032)
-;
-border: none;
-background-color: #000000;
+  54px 81px 125px rgba(0, 0, 0, 0.032);
+  border: none;
+  background-color: #000000;
 }
 
 
@@ -487,15 +473,11 @@ footer {
 }
 
 
-
-@media only screen and (max-width: 768px) 
-  
-{
-
 /*Styling for the burger menu and overall all the navigation menu in mobile view */
 
-
-
+@media screen and (max-width: 980px) 
+  
+{
 
 .logo_nav{
   height: 100%;
@@ -518,8 +500,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
 }
 
 .nav_links ul  {
@@ -540,15 +520,14 @@ footer {
   letter-spacing: 3px;
   font-size: 1.9rem;
   line-height: 94px;
-  font-weight: 400;
-  
-  
-  
+  font-weight: 400; 
 }
+
 
 .burger {
   margin-top: 40px;
 }
+
 
 .burger div {
   display: block;
@@ -557,14 +536,15 @@ footer {
   background: rgb(0, 0, 0);
 }
 
+
 .line3-active{
   height: 250px;
 }
 
+/* Toggles the menu on when its clicked */
+
 .nav-active {
-    transform: translateX(0%);
-  
-    
+    transform: translateX(0%);   
 }
 
 .social{
@@ -573,16 +553,12 @@ footer {
 
 
 
-
-
-
-
 }
 
 
 /* Media query for the desktop view*/
 
-@media only screen and (min-width: 778px){
+@media screen and (min-width: 778px){
 
 
   .info-space{
@@ -602,16 +578,13 @@ footer {
     justify-content: center;
   }
 
-.Profile_img {
+  .Profile_img {
  
   max-width: 50%;
   border-radius: 850px 30px 150px 300px;
   box-shadow: 70px 50px 150px -50px black;
   padding: 10px;
 }
-
-
-
 
 
 .contact_button {
@@ -641,13 +614,13 @@ footer {
 .text-container{
   align-items: flex-start;
   justify-content:flex-start;
-  width:calc(20% + 30vw ) ;
+  width:calc(15% + 30vw ) ;
   line-height: 48px;
  
 }
 
 .text-container h1{
-  font-size: calc(55% + 2.8rem);
+  font-size: calc(95% + 2.2vw);
   line-height: 75px;
   padding: 15px;
   border-bottom: 1px solid black;
@@ -669,6 +642,9 @@ footer {
 
 
 }
+
+
+
 
 
 
