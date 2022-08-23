@@ -43,17 +43,17 @@ ___
 # Technologies Used
 ___
 
-##Lucid <br/>
+## Lucid <br/>
 I've used Lucid to create wireframes of my website before building the actual site.<br/>
-##HTML5<br/>
+## HTML5<br/>
 The project uses HTML5 to create the basic elements and content of my website.<br/>
-##CSS3<br/>
+## CSS3<br/>
 The project uses CSS3 to add custom styles to the elements and content of my website.<br/>
-##JavaScript<br/>
+## JavaScript<br/>
 The project uses JavaScript  to add functionality to the navigation menu in mobile view.<br/>
-##Google Fonts<br/>
+## Google Fonts<br/>
 The project uses Google Fonts to style the text.<br/>
-##GitHub<br/>
+## GitHub<br/>
 I've used GitHub as a remote repository to push and store the committed changes to my project . I've also used GitHub pages to deploy my website in a live environment.
 
 
