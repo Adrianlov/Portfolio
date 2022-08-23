@@ -13,31 +13,35 @@
 </head>
 <body>
   <div class="container">
-  <header><nav>
-    <div class="logo_nav">
-    <div class="logo"><img src="Images/logo2.jpg" alt="" /></div>
+  <header>
+    <nav>
 
-    <div class="nav_links">
+  <div class="logo_nav">
+      <div class="logo"><img src="Images/logo2.jpg" alt="" /></div>
+
+  <div class="nav_links">
       <ul>
         <li ><a class="links"  href="index.html">Home</a></li>
         <li ><a class="links"  href="about.html">About</a></li>
         <li ><a class="links"  href="contact.html">Contact</a></li>
       </ul>
-    </div>
+  </div>
+
     <div class="burger" id="menu">
       <div id="line1" class="bar"></div>
       <div id="line2" class="bar"></div>
       <div id="line3" class="bar"></div>
-    </div>
+  </div>
+
   </div>
   </nav>
   </header>
   
   
 
-      <div class="info-space">
-        <div class="text">
-          <h1>Hello!</h1>
+  <div class="info-space">
+    <div class="text">
+        <h1>Hello!</h1>
 
           <p>
             I'm Adrian <br />
@@ -45,11 +49,11 @@
             who loves to code
           </p>
 
-          <div class="contactBTN">
+    <div class="contactBTN">
           <button class="contact_button" onclick="contact()">CONTACT</button>
-        </div>
+    </div>
 
-        </div>
+    </div>
         <div class="img-container">
         <div class="ProfileImg">
           <img
@@ -59,23 +63,30 @@
           alt=""
           onclick="eventElement"
         />
+    </div>
 
-        
+      <div class="social">
 
-        </div>
-        <div class="social">
           <a href="https://www.facebook.com/adrianlove85"
             ><img class="social_links" src="Images/facebook.png" alt=""
-          /></a>
-          <a href="facebook"
+          />
+        </a>
+
+          <a href="https://www.instagram.com/adrianlove85/"
             ><img class="social_links" src="Images/instagram.png" alt=""
-          /></a>
+          />
+        </a>
+
           <a href="https://wa.me/+61459927071"
             ><img class="social_links" src="Images/whats up.png" alt=""
-          /></a>
+          />
+        </a>
+
           <a href="https://www.linkedin.com/in/adrian-love-58a624223/"
             ><img class="social_links" src="Images/linkdin.png" alt=""
-          /></a>
+          />
+        </a>
+
         </div>
       
       </div>
@@ -83,14 +94,16 @@
         
 
         <div class="popup" id="popup-1">
-          <div class="overlay"></div>
+          
           <div class="content">
+
             <div class="close-btn" onclick="contact()">&times</div>
             
             <form class="form" action="https://formspree.io/f/xknykozy" method="post">
               <input type="text" placeholder="Name" />
               <input type="text" placeholder="Email" />
               <input type="text" placeholder="Subject" />
+
               <textarea
                 name=""
                 id=""
@@ -98,16 +111,13 @@
                 rows="10"
                 placeholder="Message"
               ></textarea>
+
               <button class="send-btn">SEND</button>
+
             </form>
           </div>
         </div>
 
-        <script src="index.js"></script>
-
-
-
-        
       </div>
       
       <footer>Adrian Love Copyright 2021</footer>
