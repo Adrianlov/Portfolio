@@ -84,10 +84,10 @@ https://github.com/Adrianlov/Portfolio
 Running Code Locally
 To run my code locally, users can download a local copy of my code to their desktop by completing the following steps:
 
-Go to my GitHub repository.
-Click on 'Clone or download'.
-Click on 'Download ZIP'.
-Once dowloaded, extract the zip file's contents and run my website locally.
+1. Go to my GitHub repository.
+2. Click on 'Clone or download'.
+3. Click on 'Download ZIP'.
+4. Once dowloaded, extract the zip file's contents and run my website locally.
 
 
 # HTML and CSS Validation
