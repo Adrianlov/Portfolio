@@ -403,7 +403,7 @@ textarea {
   height: 450px;
   margin: 25px;
   border-radius: 15px 15px 65px 35px;
-  background-image: url(Images/project-planning-header@2x.png);
+  background-image: url(../Images/project-planning-header@2x.png);
   background-position: center;
   background-size: cover;
   box-shadow: 70px 50px 150px -50px black;
