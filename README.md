@@ -57,6 +57,39 @@ The project uses Google Fonts to style the text.<br/>
 I've used GitHub as a remote repository to push and store the committed changes to my project . I've also used GitHub pages to deploy my website in a live environment.
 
 
+
+# Deployment
+___
+
+
+The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
+
+1. Loaded the project folder in my Visual Studio Code workspace.
+
+2. Open the source control menu in Visual Studio Code.
+
+3. Initialize Repository using Visual Studio Code "Initialize Repository".
+
+4. Committed the files to Git using the "init" command in Visual Studio Code.
+
+5. Created a new repository in GitHub called "Portfolio"
+
+6. Push the files to the repository using "push" command in Visual Studio Code.
+
+
+
+Repository Link
+https://github.com/Adrianlov/Portfolio
+
+Running Code Locally
+To run my code locally, users can download a local copy of my code to their desktop by completing the following steps:
+
+Go to my GitHub repository.
+Click on 'Clone or download'.
+Click on 'Download ZIP'.
+Once dowloaded, extract the zip file's contents and run my website locally.
+
+
 # HTML and CSS Validation
 ___
 
